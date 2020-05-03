@@ -1,4 +1,4 @@
-//import {rect, grid } from './makeshape'
+import {rect, grid } from './makeshapejs'
 var canvas;
 var canvasContext;
 var BLOCKSIZE;

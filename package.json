@@ -1,0 +1,30 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Fully Functional Single Player Tetris Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kusche12/Tetris.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kusche12/Tetris/issues"
+  },
+  "homepage": "https://github.com/kusche12/Tetris#readme",
+  "devDependencies": {
+    "babelify": "^10.0.0",
+    "budo": "^11.6.3",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "browserify": {
+    "transform": ["babelify"]
+  }
+}
